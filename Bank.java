@@ -22,7 +22,7 @@ public class Bank {
       System.out.println("3. Withdraw");
       System.out.println("4. Exit");
       System.out.print("Enter an option: ");
-      option = 1;
+      option = 2;
 
       switch (option) {
         case 1:
