@@ -10,7 +10,7 @@ package com;
 import java.util.Scanner;
 
 public class Bank {
-  static double balance = 0;
+  static double balance = 3000;
 
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
@@ -51,7 +51,7 @@ public class Bank {
   public static void deposit() {
     Scanner scanner = new Scanner(System.in);
     System.out.print("Enter the amount to deposit: $");
-    double amount = scanner.nextDouble();
+    double amount = 2000;
     balance += amount;
     System.out.println("$" + amount + " has been deposited to your account.");
     checkBalance();
@@ -60,7 +60,7 @@ public class Bank {
   public static void withdraw() {
     Scanner scanner = new Scanner(System.in);
     System.out.print("Enter the amount to withdraw: $");
-    double amount = scanner.nextDouble();
+    double amount = 1000;
     if (amount > balance) {
       System.out.println("Insufficient funds.");
     } else {
