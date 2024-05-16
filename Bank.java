@@ -15,7 +15,7 @@ public class Bank {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     int option = 0;
-    while (option != 4) {
+   // while (option != 4) {
       System.out.println("Welcome to the Bank of India");
       System.out.println("1. Check Balance");
       System.out.println("2. Deposit");
@@ -41,7 +41,7 @@ public class Bank {
           System.out.println("Invalid option. Try again.");
           break;
       }
-    }
+    //}
   }
 
   public static void checkBalance() {
